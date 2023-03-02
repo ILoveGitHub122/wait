@@ -64,7 +64,7 @@ h1 {
 	animation-fill-mode: forwards;
 }
 
-@keyframes slidein {
+     @keyframes slidein {
 	0% {
 		transform: translateY(200px);
 		opacity: 0;
@@ -92,5 +92,27 @@ h1 {
 @keyframes spin {
   to {
     transform: rotate(360deg);
+	  
+   .container {
+  position: relative;
+}
+
+.loader {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  border-top-color: #333333;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
+
