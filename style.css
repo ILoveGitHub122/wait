@@ -72,5 +72,25 @@ h1 {
 	100% {
 		transform: translateY(0);
 		opacity: 1;
-	}
+		.container {
+  position: relative;
+}
+
+.loader {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  border-top-color: #333333;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
