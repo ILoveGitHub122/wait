@@ -76,7 +76,7 @@ h1 {
   position: relative;
 }
 
-.loader {
+ .loader {
   position: absolute;
   bottom: -30px;
   left: 50%;
