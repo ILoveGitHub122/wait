@@ -2,6 +2,10 @@ body {
   background-color: #832424;
 }
 
+.white-text {
+  color: white;
+}
+
 .container {
 	width: 100%;
 	height: 100vh;
