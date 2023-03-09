@@ -47,6 +47,7 @@ h1 {
 	animation: fadein 2s ease-out;
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
+	color: white
 }
 
 @keyframes fadein {
