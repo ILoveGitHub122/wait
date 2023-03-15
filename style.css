@@ -16,7 +16,7 @@ body {
 }
 
 #settings-btn {
-  background-color: #4CAF50; /* lägg till din önskade bakgrundsfärg */
+  background-color: Red; /* lägg till din önskade bakgrundsfärg */
   color: white; /* lägg till din önskade textfärg */
   padding: 10px 20px;
   border: none;
