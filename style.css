@@ -4,6 +4,7 @@ body {
 
 .white-text {
   color: blue;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -26,7 +27,7 @@ body {
 
 h1 {
 	font-size: 72px;
-	font-family: Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #c53838;
 	margin-bottom: 50px;
 	text-align: center;
